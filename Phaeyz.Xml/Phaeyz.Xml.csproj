@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>Phaeyz.Xml</PackageId>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
+    <Authors>Phaeyz</Authors>
+    <Company>Phaeyz</Company>
+    <Product>Phaeyz</Product>
+    <Description>Phaeyz.Xml</Description>
+    <Copyright>Copyright © Phaeyz 2025</Copyright>
+    <RepositoryUrl>https://github.com/Phaeyz/Xml</RepositoryUrl>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MinVer" Version="6.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>
